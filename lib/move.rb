@@ -11,5 +11,5 @@ def input_to_index(move)
 end
 
 def move(board, index)
-    board[index] = player # Updates the board array index location with player, or in this case, the default value "X"
+    player = board[index] # Updates the board array index location with player, or in this case, the default value "X"
 end
