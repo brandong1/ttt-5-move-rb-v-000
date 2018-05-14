@@ -11,5 +11,5 @@ def input_to_index(move)
 end
 
 def move(board, index, player = "X")
-    player = board[index] # Updates the board array index location with player, or in this case, the default value "X"
+    board[index.to_i - 1] = turn
 end
