@@ -10,6 +10,6 @@ def input_to_index(move)
      index
 end
 
-def move(board, index, )
+def move(board, index )
     board[index.to_i - 1] = player
 end
